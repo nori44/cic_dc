@@ -32,3 +32,11 @@
 - [くまの合成](http://www.photoshoptutorials.ws/photoshop-tutorials/photo-manipulation/create-hungry-bear-composite-photoshop/)
 
 余った時間…何かをさらに合成させてみよう
+
+
+##第6回
+
+####イラレ使い方
+
+名刺を作ってみる
+- 名前- 住所- 電話番号- ロゴ- 揃える- 行送り- カーニング
