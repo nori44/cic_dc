@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*------------------------------------------------
+   Layout
+------------------------------------------------*/
+#head nav ul li a.menu{
+background:#099;
+}
+
+#head nav ul li a.cart{
+background:#f60;
+}
+
+#news{
+}
+
+#news .box{
+}
+
+#news .box:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#news .box h1{
+float:left;
+width:20%;
+}
+
+#news .box p{
+float:left;
+width:80%;
+}
+
+#menu p a{
+background:#eee;
+}
+
+#menu ul:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#menu ul li{
+float:left;
+}
+
+#menu ul.gnavi li{
+width:30%;
+}
+
+#menu ul.gnavi li a{
+background:#099;
+}
+
+#menu ul.snavi li a{
+background:#eee;
+}

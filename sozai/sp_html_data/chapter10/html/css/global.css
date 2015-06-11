@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+/*------------------------------------------------
+   Layout
+------------------------------------------------*/
+html{
+}
+
+body{
+font-size:12px;
+}
+
+a:link{
+color:#069;
+}
+
+a:visited{
+color:#036;
+}
+
+a:active{
+color:#0CF;
+}
+
+
+
+
+
+
+#wrap{
+}
+
+#head{
+    padding:20px 0 0 0;
+    border-top:#09c solid 4px;
+}
+
+#head h1{
+    margin:0 0 20px 0;
+    text-align:center;
+}
+
+#head h1 img{
+    width:180px;
+}
+
+#head nav{
+    margin:0 10px 10px 10px;
+}
+
+#head nav ul{
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+    width:100%;
+    padding:8px 6px;
+    background:#09c;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border-radius:4px;
+}
+
+#head nav ul li{
+    margin:0 6px 0 0;
+    padding:0 8px 0 0;
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+    box-flex:1;
+    background:url(../img/all_line01.png) no-repeat right center;
+    -webkit-background-size:1px auto;
+    background-size:1px auto;
+}
+
+#head nav ul li:last-child{
+    margin:0;
+    padding:0;
+    background:none;
+}
+
+#head nav ul li a{
+    display:block;
+    height:36px;
+    font-size:12px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    text-decoration:none;
+    line-height:36px;
+}
+
+#head nav ul li a.on{
+    color:#069;
+    background:#DDF2F9;
+    border-radius:3px;
+}
+
+#visual{
+    margin:0 10px 10px 10px;
+}
+
+#visual p{
+    width:100%;
+    height:240px;
+    background:url(../img/top_img01.png) no-repeat;
+    -webkit-background-size:100% auto;
+    background-size:cover;
+    border-radius:4px;
+}
+
+#visual p img{
+    width:180px;
+    margin:58px 0 0 25px;
+}
+
+#contents{
+position:relative;
+margin:0 10px 10px 10px;
+padding:10px 8px;
+-webkit-box-shadow:1px 1px 2px #ddd;
+box-shadow:1px 1px 2px #ddd;
+background:#fff;
+border-radius:4px;
+}
+
+#contents .rightbtn{
+position:absolute;
+right:10px;
+top:7px;
+}
+
+#contents .head{
+}
+
+#contents .head h1{
+margin:0 0 20px 0;
+padding:0 100px 5px 0;
+font-size:14px;
+background:url(../img/cont_line01.png) no-repeat left bottom;
+-webkit-background-size:100% 3px;
+background-size:100% 3px;
+}
+
+#contents .main{
+padding:0 0 10px 0;
+}
+
+#contents .main h2{
+margin:0 0 14px 0;
+padding:0 0 0 4px;
+font-size:12px;
+font-weight:bold;
+line-height:1;
+border-left:#09C solid 4px;
+}
+
+#fmenu{
+margin:0 10px 10px 10px;
+padding:20px 15px;
+background:#DDF2F9;
+border-radius:4px;
+}
+
+#fmenu header{
+margin:0 0 10px 0;
+}
+
+#fmenu header h1{
+margin:0 0 14px 0;
+padding:0 0 0 7px;
+font-size:14px;
+font-weight:bold;
+line-height:1.4;
+border-left:#069 solid 6px;
+}
+
+#fmenu header p{
+}
+
+#fmenu header p img{
+width:100%;
+border-radius:4px;
+}
+
+#fmenu section{
+}
+
+#fmenu section h2{
+margin:0 0 16px 0;
+font-size:14px;
+color:#069;
+}
+
+#fmenu section dl{
+line-height:1.6;
+}
+
+#fmenu section dl dt{
+width:60px;
+}
+
+#fmenu section dl dd{
+margin:-1.6em 0 4px 0;
+padding:0 0 4px 70px;
+border-bottom:#BBCDD3 dotted 1px;
+}
+
+#fmenu section dl dd:last-child{
+margin-bottom:0;
+padding-bottom:0;
+border-bottom:none;
+}
+
+#foot{
+margin:0 10px;
+padding:10px 0 10px 0;
+border-top:#09c solid 2px;
+}
+
+#foot nav{
+}
+
+#foot nav ul{
+margin:0 0 10px 0;
+text-align:center;
+}
+
+#foot nav ul li{
+display:inline;
+margin:0 10px 0 0;
+}
+
+#foot nav ul li a{
+padding:0 0 0 14px;
+background:url(../img/all_arw01r.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+#foot section{
+padding:15px 10px;
+background:#DDF2F9;
+border-radius:4px;
+}
+
+#foot section ul{
+margin:0 0 5px 0;
+list-style:none;
+text-align:center;
+}
+
+#foot section ul li{
+display:inline;
+margin:0 10px 0 0;
+}
+
+#foot section ul li a{
+padding:0 0 0 14px;
+background:url(../img/all_arw01r.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+#foot section p{
+text-align:center;
+}
+
+
+
+/*------------------------------------------------
+   News
+------------------------------------------------*/
+#newsList{
+}
+
+#newsList ul{
+padding:8px 0 0 0;
+line-height:1.6;
+list-style:none;
+border-top:#ddd dotted 1px;
+}
+
+#newsList ul li{
+}
+
+#newsList ul li h3{
+width:80px;
+font-weight:bold;
+}
+
+#newsList ul li span{
+display:block;
+margin:-1.6em 0 10px 0;
+padding:0 0 10px 90px;
+border-bottom:#ddd dotted 1px;
+}
+
+#newsList ul li:last-child span{
+margin-bottom:0;
+padding-bottom:0;
+border-bottom:none;
+}
+
+
+/*------------------------------------------------
+   Blue button
+------------------------------------------------*/
+#contents .bluebtn{
+display:block;
+width:68px;
+height:18px;
+padding:0 0 0 22px;
+color:#fff;
+text-decoration:none;
+line-height:18px;
+background:#09c url(../img/all_arw02r.png) no-repeat 6px 3px;
+-webkit-background-size:11px;
+background-size:11px;
+border-radius:3px;
+}
+
+
+
+
+/*------------------------------------------------
+   Default
+------------------------------------------------*/
+.cf:after{
+content:"";
+display:block;
+clear:both;
+}
+
+
+
+@media only screen and (min-width:760px) {
+
+    #wrap{
+        padding:0 30px;
+    }
+
+    #mainCont{
+    }
+    
+    #mainCont:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    
+    #mainCont #leftCont{
+        float:left;
+        width:30%;
+    }
+    
+    #mainCont #rightCont{
+        float:right;
+        width:70%;
+    }
+    
+    #head nav ul li a{
+        font-size:14px;
+    }
+    
+    #visual p img{
+        width:280px;
+    }
+
+}
+

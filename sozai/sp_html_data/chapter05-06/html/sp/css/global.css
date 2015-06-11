@@ -1,0 +1,826 @@
+@charset "utf-8";
+
+/*------------------------------------------------
+   Layout
+------------------------------------------------*/
+html{
+}
+
+body{
+font-size:12px;
+}
+
+a:link{
+color:#069;
+}
+
+a:visited{
+color:#036;
+}
+
+a:active{
+color:#0CF;
+}
+
+
+
+
+
+
+#wrap{
+}
+
+#head{
+padding:13px 0 0 0;
+border-top:#09c solid 4px;
+}
+
+#head h1{
+margin:0 0 14px 0;
+text-align:center;
+}
+
+#head h1 img{
+width:124px;
+}
+
+#head nav{
+margin:0 10px 10px 10px;
+}
+
+#head nav ul{
+display:-webkit-box;
+display:-moz-box;
+display:box;
+width:100%;
+padding:4px 6px;
+background:#09c;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+border-radius:4px;
+}
+
+#head nav ul li{
+margin:0 6px 0 0;
+padding:0 8px 0 0;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+box-flex:1;
+background:url(../img/all_line01.png) no-repeat right center;
+-webkit-background-size:1px auto;
+background-size:1px auto;
+}
+
+#head nav ul li:last-child{
+margin:0;
+padding:0;
+background:none;
+}
+
+#head nav ul li a{
+display:block;
+height:36px;
+font-size:10px;
+font-weight:bold;
+color:#fff;
+text-align:center;
+text-decoration:none;
+line-height:36px;
+}
+
+#head nav ul li a.on{
+color:#069;
+background:#DDF2F9;
+border-radius:3px;
+}
+
+#visual{
+margin:0 10px 10px 10px;
+}
+
+#visual p{
+width:100%;
+height:140px;
+background:url(../img/top_img01.png) no-repeat;
+-webkit-background-size:100% auto;
+background-size:cover;
+border-radius:4px;
+}
+
+#visual p img{
+width:190px;
+margin:28px 0 0 5px;
+}
+
+#contents{
+position:relative;
+margin:0 10px 10px 10px;
+padding:10px 8px;
+-webkit-box-shadow:1px 1px 2px #ddd;
+box-shadow:1px 1px 2px #ddd;
+background:#fff;
+border-radius:4px;
+}
+
+#contents .rightbtn{
+position:absolute;
+right:10px;
+top:7px;
+}
+
+#contents .head{
+}
+
+#contents .head h1{
+margin:0 0 20px 0;
+padding:0 100px 5px 0;
+font-size:14px;
+background:url(../img/cont_line01.png) no-repeat left bottom;
+-webkit-background-size:100% 3px;
+background-size:100% 3px;
+}
+
+#contents .main{
+padding:0 0 10px 0;
+}
+
+#contents .main h2{
+margin:0 0 14px 0;
+padding:0 0 0 4px;
+font-size:12px;
+font-weight:bold;
+line-height:1;
+border-left:#09C solid 4px;
+}
+
+#fmenu{
+margin:0 10px 10px 10px;
+padding:14px 8px;
+background:#DDF2F9;
+border-radius:4px;
+}
+
+#fmenu header{
+margin:0 0 10px 0;
+}
+
+#fmenu header h1{
+margin:0 0 14px 0;
+padding:0 0 0 4px;
+font-size:12px;
+font-weight:bold;
+line-height:1;
+border-left:#069 solid 4px;
+}
+
+#fmenu header p{
+}
+
+#fmenu header p img{
+width:100%;
+border-radius:4px;
+}
+
+#fmenu section{
+}
+
+#fmenu section h2{
+margin:0 0 16px 0;
+font-size:12px;
+color:#069;
+}
+
+#fmenu section dl{
+font-size:10px;
+line-height:1.6;
+}
+
+#fmenu section dl dt{
+width:60px;
+}
+
+#fmenu section dl dd{
+margin:-1.6em 0 4px 0;
+padding:0 0 4px 70px;
+border-bottom:#BBCDD3 dotted 1px;
+}
+
+#fmenu section dl dd:last-child{
+margin-bottom:0;
+padding-bottom:0;
+border-bottom:none;
+}
+
+.pagetop{
+margin:0 10px 10px 10px;
+text-align:right;
+}
+
+.pagetop a{
+padding:0 0 0 14px;
+font-size:10px;
+background:url(../img/all_arw01t.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+#foot{
+margin:0 10px;
+padding:10px 0 10px 0;
+font-size:10px;
+border-top:#09c solid 2px;
+}
+
+#foot nav{
+}
+
+#foot nav ul{
+margin:0 0 10px 0;
+text-align:center;
+}
+
+#foot nav ul li{
+display:inline;
+margin:0 10px 0 0;
+}
+
+#foot nav ul li a{
+padding:0 0 0 14px;
+background:url(../img/all_arw01r.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+#foot section{
+padding:15px 10px;
+background:#DDF2F9;
+border-radius:4px;
+}
+
+#foot section ul{
+margin:0 0 5px 0;
+list-style:none;
+text-align:center;
+}
+
+#foot section ul li{
+display:inline;
+margin:0 10px 0 0;
+}
+
+#foot section ul li a{
+padding:0 0 0 14px;
+background:url(../img/all_arw01r.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+#foot section p{
+text-align:center;
+}
+
+
+
+/*------------------------------------------------
+   News
+------------------------------------------------*/
+#newsList{
+}
+
+#newsList ul{
+padding:8px 0 0 0;
+font-size:10px;
+line-height:1.6;
+list-style:none;
+border-top:#ddd dotted 1px;
+}
+
+#newsList ul li{
+}
+
+#newsList ul li h3{
+width:50px;
+font-weight:bold;
+}
+
+#newsList ul li span{
+display:block;
+margin:-1.6em 0 10px 0;
+padding:0 0 10px 60px;
+border-bottom:#ddd dotted 1px;
+}
+
+#newsList ul li:last-child span{
+margin-bottom:0;
+padding-bottom:0;
+border-bottom:none;
+}
+
+#newsArea{
+}
+
+#newsArea header{
+}
+
+#newsArea header time{
+display:block;
+margin:0 0 3px 0;
+font-size:10px;
+color:#666;
+}
+
+#newsArea header h1{
+margin:0 0 14px 0;
+padding:0 0 7px 0;
+font-size:12px;
+font-weight:bold;
+color:#069;
+border-bottom:#ddd dotted 1px;
+}
+
+#newsArea section{
+margin:0 0 14px 0;
+padding:0 0 16px 0;
+font-size:10px;
+line-height:1.6;
+border-bottom:#ddd dotted 1px;
+}
+
+#newsArea section img{
+float:left;
+width:140px;
+padding:0 10px 6px 0;
+}
+
+#newsArea .pageNation{
+font-size:10px;
+list-style:none;
+}
+
+#newsArea .pageNation .prev{
+float:left;
+}
+
+#newsArea .pageNation .prev a{
+padding:0 0 0 16px;
+background:url(../img/all_arw01l.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+#newsArea .pageNation .next{
+float:right;
+text-align:right;
+}
+
+#newsArea .pageNation .next a{
+padding:0 16px 0 0;
+background:url(../img/all_arw01r.png) no-repeat right center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+
+/*------------------------------------------------
+   Product
+------------------------------------------------*/
+#productList{
+}
+
+#productList article{
+position:relative;
+margin:0 0 15px 0;
+}
+
+#productList article:last-child{
+margin:0;
+}
+
+#productList article section{
+padding:0 0 24px 0;
+}
+
+#productList article section p{
+font-size:10px;
+line-height:1.6;
+}
+
+#productList article section p:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#productList article section p img{
+float:left;
+width:100px;
+margin:0 10px 6px 0;
+}
+
+#productList article .btn{
+position:absolute;
+right:0;
+bottom:0;
+}
+
+#productArea{
+}
+
+#productArea .about{
+margin:0 0 20px 0;
+}
+
+#productArea .about p{
+font-size:10px;
+line-height:1.6;
+}
+
+#productArea .about p:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#productArea .about p img{
+float:left;
+width:100px;
+padding:0 10px 6px 0;
+}
+
+#productArea .method{
+margin:0 0 20px 0;
+}
+
+#productArea .notes{
+}
+
+#productArea .notes p{
+font-size:10px;
+line-height:1.6;
+}
+
+
+
+/*------------------------------------------------
+   Profile
+------------------------------------------------*/
+#profileArea{
+}
+
+#profileArea .first{
+margin:0 0 20px 0;
+}
+
+#profileArea .first p{
+font-size:10px;
+line-height:1.6;
+}
+
+#profileArea .about{
+}
+
+
+
+/*------------------------------------------------
+   Access
+------------------------------------------------*/
+#accessArea{
+}
+
+#accessArea .txt{
+margin:0 0 20px 0;
+}
+
+#accessArea .txt p{
+font-size:10px;
+line-height:1.6;
+}
+
+#accessArea .map{
+}
+
+#accessArea .map .maparea{
+width:100%;
+height:160px;
+margin:0 0 5px 0;
+overflow:hidden;
+}
+
+#accessArea .map .maparea iframe{
+}
+
+#accessArea .map p{
+font-size:10px;
+}
+
+
+/*------------------------------------------------
+   Recruit
+------------------------------------------------*/
+#recruitArea{
+}
+
+#recruitArea .essential{
+margin:0 0 20px 0;
+}
+
+#recruitArea .essential p{
+font-size:10px;
+line-height:1.6;
+}
+
+#recruitArea .form{
+}
+
+#recruitArea .form .txt{
+margin:0 0 10px 0;
+font-size:10px;
+line-height:1.6;
+}
+
+#recruitArea .form .txt b{
+color:#069;
+}
+
+#recruitArea .form .formList{
+margin:0 0 10px 0;
+}
+
+
+/*------------------------------------------------
+   Sitemap
+------------------------------------------------*/
+#sitemapArea{
+width:100%;
+display:-webkit-box;
+display:-moz-box;
+display:box;
+font-size:10px;
+}
+
+#sitemapArea > ul{
+list-style:none;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+box-flex:1;
+}
+
+#sitemapArea > ul > li{
+margin:0 0 6px 0;
+}
+
+#sitemapArea > ul > li > a,
+#sitemapArea > ul > li > span{
+padding:0 0 0 14px;
+background:url(../img/all_arw01r.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+#sitemapArea ul li ul{
+margin:0 0 0 10px;
+list-style:none;
+}
+
+#sitemapArea ul li ul li{
+margin:0 0 6px 0;
+}
+
+#sitemapArea ul li ul li a{
+padding:0 0 0 14px;
+background:url(../img/all_arw03r.png) no-repeat left center;
+-webkit-background-size:11px;
+background-size:11px;
+}
+
+
+/*------------------------------------------------
+   Contact
+------------------------------------------------*/
+#contactArea{
+}
+
+#contactArea .reference{
+margin:0 0 20px 0;
+}
+
+#contactArea .reference address{
+margin:0 0 5px 0;
+font-style:normal;
+}
+
+#contactArea .reference p{
+font-size:10px;
+line-height:1.6;
+}
+
+#contactArea .form{
+}
+
+#contactArea .form .txt{
+margin:0 0 10px 0;
+font-size:10px;
+line-height:1.6;
+}
+
+#contactArea .form .txt b{
+color:#069;
+}
+
+#contactArea .form .formList{
+margin:0 0 10px 0;
+}
+
+#contactArea .form form fieldset{
+margin:0 0 10px 0;
+padding:10px;
+border:#ddd solid 1px;
+}
+
+#contactArea .form form fieldset legend{
+padding:0 5px;
+font-size:12px;
+font-weight:bold;
+}
+
+#contactArea .form form fieldset .formList{
+padding:0;
+border-top:none;
+}
+
+#contactArea .form form fieldset .formList dd:last-child{
+margin:0;
+padding:0;
+border-bottom:none;
+}
+
+
+
+/*------------------------------------------------
+   Table
+------------------------------------------------*/
+.commonTable{
+width:100%;
+font-size:10px;
+border:#ddd solid 1px;
+border-collapse:collapse;
+}
+
+.commonTable th{
+width:20%;
+padding:6px;
+font-weight:bold;
+text-align:left;
+vertical-align:top;
+background:#DDF2F9;
+border:#ddd solid 1px;
+}
+
+.commonTable td{
+width:80%;
+padding:6px;
+border:#ddd solid 1px;
+}
+
+
+
+
+/*------------------------------------------------
+   Form
+------------------------------------------------*/
+.formList{
+padding:10px 0 0 0;
+border-top:#ddd dotted 1px;
+}
+
+.formList dt{
+margin:0 0 10px 0;
+padding:0 0 0 4px;
+font-weight:bold;
+line-height:1;
+border-left:#09C solid 4px;
+}
+
+.formList dt b{
+margin:0 0 0 4px;
+font-size:10px;
+font-weight:normal;
+color:#069;
+}
+
+.formList dd{
+margin:0 0 10px 0;
+padding:0 0 10px 0;
+border-bottom:#ddd dotted 1px;
+overflow-x:hidden;
+}
+
+.formList dd p{
+margin:0 0 4px 0;
+}
+
+.formList dd label{
+margin:0 6px 0 0;
+}
+
+.formList dd span{
+margin:0 4px 0 0;
+}
+
+.formList dd input{
+vertical-align:middle;
+}
+
+.formList dd select{
+padding:5px;
+}
+
+.formList dd input[type=checkbox],
+.formList dd input[type=radio]{
+width:24px;
+height:24px;
+margin:0 6px 4px 0;
+}
+
+.formList dd input[type=radio]{
+border-radius:12px;
+}
+
+.formList dd input[type=text],
+.formList dd input[type=email],
+.formList dd input[type=tel],
+.formList dd input[type=number],
+.formList dd input[type=password],
+.formList dd textarea{
+padding:6px;
+border-radius:4px;
+border:#ddd solid 1px;
+-webkit-box-shadow:inset 1px 1px 5px #eee;
+box-shadow:inset 1px 1px 5px #eee;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+.formList dd textarea{
+resize:vertical;
+}
+
+.formList dd .full{
+width:100%;
+}
+
+.formList dd input[name^=post]{
+width:60px;
+}
+
+.commonSubmit{
+display:block;
+width:220px;
+height:44px;
+margin:0 auto;
+font-size:14px;
+font-weight:bold;
+text-shadow:0 -1px 0 #09c;
+color:#fff;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(1.00, #09c), color-stop(0.00, #0cf));
+background:-webkit-linear-gradient(top, #0cf 0%, #09c 100%);
+background:-moz-linear-gradient(top, #0cf 0%, #09c 100%);
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff00ccff', endColorstr='#ff0099cc', GradientType=0 );
+background:linear-gradient(top, #0cf 0%, #09c 100%);
+border:#09c solid 1px;
+border-radius:4px;
+}
+
+
+/*------------------------------------------------
+   Blue button
+------------------------------------------------*/
+#contents .bluebtn{
+display:block;
+width:68px;
+height:18px;
+padding:0 0 0 22px;
+font-size:10px;
+color:#fff;
+text-decoration:none;
+line-height:18px;
+background:#09c url(../img/all_arw02r.png) no-repeat 6px 3px;
+-webkit-background-size:11px;
+background-size:11px;
+border-radius:3px;
+}
+
+
+
+
+/*------------------------------------------------
+   Default
+------------------------------------------------*/
+.cf:after{
+content:"";
+display:block;
+clear:both;
+}
+

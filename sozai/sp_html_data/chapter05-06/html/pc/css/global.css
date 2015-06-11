@@ -1,0 +1,592 @@
+@charset "utf-8";
+
+/*------------------------------------------------
+   Layout
+------------------------------------------------*/
+html{
+width:100%;
+height:100%;
+}
+
+body{
+width:100%;
+height:100%;
+font-size:12px;
+color:#333;
+line-height:1.6;
+text-align:center;
+font-family:'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+a:link{
+color:#069;
+}
+
+a:visited{
+color:#036;
+}
+
+a:hover{
+color:#09C;
+text-decoration:none;
+}
+
+a:active{
+color:#0CF;
+}
+
+#wrap{
+width:980px;
+margin:0 auto;
+text-align:left;
+}
+
+#head{
+margin:0 0 20px 0;
+padding:36px 0 0 0;
+}
+
+#head h1{
+margin:0 0 32px 0;
+}
+
+#head ul{
+width:960px;
+height:38px;
+padding:9px 10px;
+background:url(../img/all_bg01.gif) no-repeat;
+}
+
+#head ul li{
+float:left;
+padding:0 10px;
+background:url(../img/all_line01.gif) no-repeat right top;
+}
+
+#head ul li.last{
+background:none;
+}
+
+#visual{
+margin:0 0 18px 0;
+}
+
+#contents{
+margin:0 0 12px 0;
+}
+
+#side{
+float:left;
+width:280px;
+background:#DDF2F9 url(../img/side_bg01t.gif) no-repeat left top;
+}
+
+#side .bg{
+padding:16px 20px 36px 20px;
+background:url(../img/side_bg01b.gif) no-repeat left bottom;
+}
+
+#side h2{
+margin:0 0 18px 0;
+padding:0 0 0 6px;
+font-size:14px;
+font-weight:bold;
+line-height:1;
+border-left:#069 solid 4px;
+}
+
+#side .img{
+margin:0 0 14px 0;
+}
+
+#side h3{
+margin:0 0 10px 0;
+font-size:13px;
+font-weight:bold;
+color:#069;
+}
+
+#side dl{
+line-height:1.6;
+}
+
+#side dl dt{
+width:50px;
+font-weight:bold;
+}
+
+#side dl dd{
+margin:-1.6em 0 8px 0;
+padding:0 0 8px 60px;
+border-bottom:#BBCDD3 dotted 1px;
+}
+
+#side dl dd.last{
+margin:-1.6em 0 0 0;
+padding:0 0 0 60px;
+border-bottom:none;
+}
+
+#main{
+float:right;
+width:684px;
+background:url(../img/main_bg01m.gif) repeat-y;
+}
+
+#main .bgt{
+background:url(../img/main_bg01t.gif) no-repeat left top;
+}
+
+#main .bgb{
+position:relative;
+min-height:440px;
+_height:440px;
+padding:16px 23px 36px 20px;
+background:url(../img/main_bg01b.gif) no-repeat left bottom;
+}
+
+#main h2{
+margin:0 0 20px 0;
+padding:0 0 8px 0;
+font-size:20px;
+font-weight:bold;
+background:url(../img/cont_line01.gif) no-repeat left bottom;
+}
+
+#main h3.ttl01{
+margin:0 0 18px 0;
+padding:0 0 0 6px;
+font-size:14px;
+font-weight:bold;
+line-height:1;
+border-left:#09C solid 4px;
+}
+
+#main .rightbtn{
+position:absolute;
+right:20px;
+top:14px;
+}
+
+.pagetop{
+margin:0 0 12px 0;
+text-align:right;
+}
+
+.pagetop a{
+padding:0 0 0 16px;
+background:url(../img/all_arw01t.gif) no-repeat left center;
+}
+
+#foot{
+position:relative;
+width:980px;
+height:50px;
+padding:0 0 20px 0;
+background:url(../img/foot_bg01.gif) no-repeat;
+}
+
+#foot ul{
+margin:0 0 0 20px;
+padding:16px 0 0 0;
+}
+
+#foot ul li{
+display:inline;
+margin:0 15px 0 0;
+}
+
+#foot ul li a{
+padding:0 0 0 16px;
+background:url(../img/all_arw01r.gif) no-repeat left center;
+}
+
+#foot p{
+position:absolute;
+right:20px;
+top:16px;
+}
+
+
+/*------------------------------------------------
+   News
+------------------------------------------------*/
+#newsList{
+padding:8px 0 0 0;
+line-height:1.6;
+border-top:#ddd dotted 1px;
+}
+
+#newsList dt{
+width:110px;
+font-weight:bold;
+}
+
+#newsList dd{
+margin:-1.6em 0 10px;
+padding:0 0 10px 120px;
+border-bottom:#ddd dotted 1px;
+}
+
+#newsArea{
+}
+
+#newsArea h3{
+margin:0 0 20px 0;
+padding:0 0 10px 0;
+font-size:14px;
+font-weight:bold;
+color:#069;
+border-bottom:#ddd dotted 1px;
+}
+
+#newsArea .entry{
+margin:0 0 15px 0;
+padding:0 0 40px 0;
+border-bottom:#ddd dotted 1px;
+}
+
+#newsArea .entry img{
+float:left;
+padding:0 15px 10px 0;
+}
+
+#newsArea .pageNation{
+}
+
+#newsArea .pageNation .prev{
+float:left;
+}
+
+#newsArea .pageNation .prev a{
+padding:0 0 0 16px;
+background:url(../img/all_arw01l.gif) no-repeat left center;
+}
+
+#newsArea .pageNation .next{
+float:right;
+text-align:right;
+}
+
+#newsArea .pageNation .next a{
+padding:0 16px 0 0;
+background:url(../img/all_arw01r.gif) no-repeat right center;
+}
+
+
+/*------------------------------------------------
+   Product
+------------------------------------------------*/
+#productList{
+}
+
+#productList .box{
+position:relative;
+margin:0 0 40px 0;
+}
+
+#productList .box .img{
+float:left;
+width:200px;
+}
+
+#productList .box .txt{
+margin:0 0 0 220px;
+padding:0 0 30px 0;
+}
+
+#productList .box .btn{
+position:absolute;
+right:0;
+bottom:0;
+}
+
+#productArea{
+}
+
+#productArea .box{
+position:relative;
+margin:0 0 40px 0;
+}
+
+#productArea .box .img{
+float:left;
+width:200px;
+}
+
+#productArea .box .txt{
+margin:0 0 0 220px;
+padding:0 0 30px 0;
+}
+
+#productArea .tableLayout01{
+margin:0 0 40px 0;
+}
+
+
+/*------------------------------------------------
+   Profile
+------------------------------------------------*/
+#profileArea{
+}
+
+#profileArea .txt{
+margin:0 0 30px 0;
+}
+
+
+/*------------------------------------------------
+   Access
+------------------------------------------------*/
+#accessArea{
+}
+
+#accessArea .txt{
+margin:0 0 30px 0;
+}
+
+#accessArea .map{
+}
+
+#accessArea .map iframe{
+margin:0 0 5px 0;
+border:#ddd solid 1px;
+}
+
+
+
+/*------------------------------------------------
+   Recruit
+------------------------------------------------*/
+#recruitArea{
+}
+
+#recruitArea .tableLayout01{
+margin:0 0 30px 0;
+}
+
+#recruitArea .txt{
+margin:0 0 12px 0;
+}
+
+#recruitArea .txt b{
+font-weight:normal;
+color:#069;
+}
+
+
+/*------------------------------------------------
+   Sitemap
+------------------------------------------------*/
+#sitemapArea{
+}
+
+#sitemapArea ul{
+width:220px;
+padding:0 0 0 40px;
+}
+
+#sitemapArea ul.left{
+float:left;
+}
+
+#sitemapArea ul.right{
+float:right;
+}
+
+#sitemapArea ul li{
+margin:0 0 5px 0;
+}
+
+#sitemapArea ul li a,
+#sitemapArea ul li span{
+padding:0 0 0 16px;
+background:url(../img/all_arw01r.gif) no-repeat left center;
+}
+
+#sitemapArea ul li ul{
+padding:0 0 0 20px;
+}
+
+#sitemapArea ul li ul li{
+}
+
+#sitemapArea ul li ul li a{
+background:url(../img/all_arw02r.gif) no-repeat left center;
+}
+
+
+
+/*------------------------------------------------
+   Contact
+------------------------------------------------*/
+#contactArea{
+}
+
+#contactArea .tableLayout01{
+margin:0 0 30px 0;
+}
+
+#contactArea .txt{
+margin:0 0 5px 0;
+}
+
+#contactArea .txt b{
+font-weight:normal;
+color:#069;
+}
+
+
+/*------------------------------------------------
+   Table
+------------------------------------------------*/
+.tableLayout01{
+border-left:#ddd solid 1px;
+border-top:#ddd solid 1px;
+}
+
+.tableLayout01 th{
+padding:10px;
+font-weight:bold;
+vertical-align:top;
+background:#DDF2F9;
+border-right:#ddd solid 1px;
+border-bottom:#ddd solid 1px;
+}
+
+.tableLayout01 td{
+padding:10px;
+border-right:#ddd solid 1px;
+border-bottom:#ddd solid 1px;
+}
+
+
+
+/*------------------------------------------------
+   Form
+------------------------------------------------*/
+.formTable{
+margin:0 0 20px 0;
+border-top:#ddd dotted 1px;
+}
+
+.formTable th{
+width:140px;
+padding:18px 0;
+vertical-align:top;
+border-bottom:#ddd dotted 1px;
+}
+
+.formTable th p{
+padding:0 0 0 6px;
+font-weight:bold;
+line-height:1;
+border-left:#09C solid 4px;
+}
+
+.formTable th p b{
+margin:0 0 0 5px;
+font-weight:normal;
+color:#069;
+}
+
+.formTable td{
+width:500px;
+padding:10px 0;
+border-bottom:#ddd dotted 1px;
+}
+
+.formTable td p{
+margin:0 0 8px 0;
+}
+
+.formTable td label{
+margin:0 8px 0 0;
+}
+
+.formTable td label input{
+margin:0 4px 0 0;
+}
+
+.formTable td span{
+margin:0 8px 0 0;
+}
+
+.formTable td input[type=text]{
+padding:6px;
+border-radius:4px;
+border:#ddd solid 1px;
+box-shadow:inset 1px 1px 5px #eee;
+}
+
+.formTable td .sizeS{
+width:146px;
+}
+
+.formTable td .sizeM{
+width:236px;
+}
+
+.formTable td .sizeML{
+width:356px;
+}
+
+.formTable td .sizeL{
+width:486px;
+}
+
+.formTable td textarea{
+width:486px;
+padding:6px;
+border-radius:4px;
+border:#ddd solid 1px;
+box-shadow:inset 1px 1px 5px #eee;
+resize:vertical;
+}
+
+.submit01{
+display:block;
+width:220px;
+height:40px;
+margin:0 auto;
+text-indent:-9999px;
+background:url(../img/recruit_btn01.jpg) no-repeat;
+border:none;
+cursor:pointer;
+}
+
+.submit02{
+display:block;
+width:220px;
+height:40px;
+margin:0 auto;
+text-indent:-9999px;
+background:url(../img/contact_btn01.jpg) no-repeat;
+border:none;
+cursor:pointer;
+}
+
+
+/*------------------------------------------------
+   Default
+------------------------------------------------*/
+
+/* float */
+.cf:after{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.cf{
+display:inline-block;
+}
+/* Hides from IE-mac \*/
+*html .cf{
+height:1%;
+}
+.cf{
+display:block;
+}
+/* End hide from IE-mac */

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*------------------------------------------------
+   Layout
+------------------------------------------------*/
+#head nav ul{
+background:#f60;
+}
+
+#head nav ul:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#head nav ul li{
+float:left;
+}
+
+#news{
+}
+
+#news .box{
+}
+
+#news .box:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#news .box h1{
+float:left;
+width:20%;
+}
+
+#news .box p{
+float:left;
+width:80%;
+}
