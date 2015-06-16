@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* -------------------
+Layout
+------------------- */
+
+body{
+    font-size: 12px;
+}
+.head{
+    padding: 15px 0 0 0;
+    border-top: #09c solid 4px;
+}
+.head h1{
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+.head h1 img{
+    width: 124px;
+}
+.head nav{
+    margin: 0 10px 10px 10px
+}
+.head nav ul{
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    width: 100%;
+    padding: 4px 6px;
+    background: #09c;
+    border-radius: 4px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.head nav ul li{
+    margin: 0 6px 0 0;
+    padding: 0 8px 0 0;
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+    box-flex:1;
+    background: url(../img/all_line01.png) no-repeat right center;
+    -webkit-background-size: 1px auto;
+    background-size: 1px auto;
+}
+.head nav ul li a{
+    display: block;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+.head nav ul li:last-child{
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+.visual{
+    margin: 0 10px 10px 10px;
+}
+.visual p{
+    width: 100%;
+    height: 140px;
+    background: url(../img/top_img01.png) no-repeat;
+    -webkit-background-size:100% auto;
+    background-size: cover;
+    border-radius: 4px;
+}
+.visual p img{
+    width: 190px;
+    margin: 30px 0 0 5px;
+}

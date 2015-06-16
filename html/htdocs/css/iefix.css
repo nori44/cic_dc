@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*------------------------------------------------
+   Layout
+------------------------------------------------*/
+#head nav ul{
+}
+
+#head nav ul:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#head nav ul li{
+float:left;
+width:20%;
+margin:0;
+padding:0 6px 0 8px;
+}
+
+#head nav ul li:first-child{
+padding:0 6px 0 0;
+}
+
+#head nav ul li:last-child{
+padding:0 0 0 8px;
+}
+
+
+/*------------------------------------------------
+   Sitemap
+------------------------------------------------*/
+#sitemapArea{
+}
+
+#sitemapArea:after{
+content:"";
+display:block;
+clear:both;
+}
+
+#sitemapArea > ul{
+float:left;
+width:50%;
+}
