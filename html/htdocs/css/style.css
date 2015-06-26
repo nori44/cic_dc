@@ -71,3 +71,100 @@ body{
     width: 190px;
     margin: 30px 0 0 5px;
 }
+.contents {
+    position: relative;
+    margin: 0 10px 10px 10px;
+    padding:10px 8px;
+    box-shadow: 1px 1px 2px #ddd;
+    background: #fff;
+    border-radius: 4px;
+}
+.contents .rightbtn {
+    position: absolute;
+    right:10px;
+    top:7px;
+}
+
+.contents .main{
+    padding: 0 0 10px 0;
+}
+.contents .main h2{
+    margin:0 0 14px 0;
+    padding: 0 0 0 4px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    border-left:#09c solid 4px;
+}
+.contents .bluebtn{
+    display: block;
+    width: 68px;
+    height: 18px;
+    padding: 0 0 0 22px;
+    font-size:10px;
+    color:#fff;
+    text-decoration: none;
+    line-height: 18px;
+    background: #09c url(../img/all_arw02r.png) no-repeat 6px 3px;
+    background-size: 11px;
+    border-radius: 3px;
+}
+
+.newsList ul{
+    padding: 8px 0 0 0;
+    font-size: 10px;
+    line-height: 1.6;
+    list-style: none;
+    border-top:#ddd dotted 1px;
+}
+.newsList ul li h3{
+    width: 70px;
+    font-weight: bold;
+}
+.newsList ul li span{
+    display: block;
+    margin:-1.6em 0 10px 0;
+    padding: 0 0 10px 80px;
+    border-bottom: #ddd dotted 1px;
+}
+
+.fmenu{
+    margin: 0 10px 10px 10px;
+    padding: 14px 8px;
+    background: #DDF2F9;
+    border-radius: 4px;
+}
+.fmenu header {
+    margin: 0 0 10px 0;
+}
+.fmenu header h1{
+    margin: 0 0 14px 0;
+    padding: 0 0 0 4px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    border-left:#069 solid 4px;
+}
+.fmenu header p img {
+    width: 100%;
+    border-radius: 4px;
+}
+.fmenu section h2{
+    margin: 0 0 16px 0;
+    font-size: 12px;
+    color: #069;
+}
+.fmenu section dl {
+    font-size: 10px;
+    line-height: 1.6;
+}
+.fmenu section dl dt {
+    width: 60px;
+}
+.fmenu section dl dd {
+    margin: -1.6em 0 4px 0;
+    padding: 0 0 4px 70px;
+    border-bottom: #BBCDD3 dotted 1px;
+}
+
+
