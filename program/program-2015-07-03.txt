@@ -7,17 +7,42 @@ HTML演習
  
 
 
-1年生　
-  
+1年生
+
+CSSとは 
+	- ブラウザの違い
+ 		- safariとchromeで違う
+		- winとMacでも違う。特にフォントが違う
+		- 初期値のcssがある
+	
+	- Style当ててみる
+		- CSSの書き方は3種類ある
+		- headの中にstyleタグとして入れる
+		- color
+		- font-size
+		- margin-topからbottom
+		- padding-topからbottom
+		- 上下左右指定
+		- border-topからbottom
+		- background
+		- id
+		- class
+	- CSSを外部ファイル化
+	- リセットさせてみる
+ 
+ 
 ブログサイトを作ってみよう
 	- 完成形を見せる(3-6)
 		- 中身はHTMLとCSSでできている
 		- CSSをなくすとどうなるか
-		- HTMLは一つ一つ学習したが、CSSは同時に学んでいく
 
 	- まずは2から
 		- 2-2, 2-1と進む
-		- CSSのリンクはあとで
+		- CSSのリンク
 		- viewportもとりあえず入れるけど後期くらいにやる
 		
 	- 2のCSSを書き始める
+		- 本参照
+	
+	- 3のCSS
+		- コード参照
