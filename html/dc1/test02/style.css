@@ -1,0 +1,35 @@
+
+/*セレクタ{プロパティ:値;}*/
+h1 {
+	color : #9f1761;
+	font-size : 100px;
+	margin : 80px 10px 300px 100px;
+	border:3px #333 solid;
+	text-align:center;
+	line-height:1;
+	padding:50px;
+	background:#888;
+}
+/* margin : ↑ → ↓ ← ; 上から時計回り */
+h2 {
+	margin: 20px 80px;
+	border:3px #333 solid;
+}
+/* margin : 上下 左右; ２つある場合
+margin : 上 左右 下; ３つある場合
+
+上だけmarginを指定したい場合
+margin : 50px 0 0 0;
+margin-top:50px; 
+paddingでも同じように上下左右の指定ができる
+*/
+p {
+	color:#605bdf;
+	font-size:30px;
+}
+#aiueo {
+	color:#5bdf86;
+}
+.kaki {
+	color:#eb63b3
+}

@@ -11,10 +11,6 @@ HTML演習
 1年生
 
 CSSとは 
-	- ブラウザの違い
- 		- safariとchromeで違う
-		- winとMacでも違う。特にフォントが違う
-		- 初期値のcssがある
 	
 	- Style当ててみる
 		- CSSの書き方は3種類ある
@@ -22,15 +18,20 @@ CSSとは
 		- color
 		- font-size
 		- margin-topからbottom
-		- padding-topからbottom
 		- 上下左右指定
 		- border-topからbottom
+		- text-align
+		- line-height
+		- padding-topからbottom
 		- background
 		- id
 		- class
 	- CSSを外部ファイル化
-	- リセットさせてみる
  
+	- ブラウザの違い
+ 		- safariとchromeで違う
+		- winとMacでも違う。特にフォントが違う
+		- 初期値のcssがある
  
 ブログサイトを作ってみよう
 	- 完成形を見せる(3-6)
