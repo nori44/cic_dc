@@ -24,3 +24,8 @@
 	- p69 css 1箇所
 	- .clearfixを追加
 	- p71 html / css
+	- p82 boxA boxB boxC
+	- p88 サイドメニュー html
+	- p89 h1 html
+	- p82 @mediaを入れる
+	- p90 サイドメニュー html

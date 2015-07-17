@@ -73,3 +73,6 @@
 - Style当ててみる
 	- CSSの書き方は3種類ある	- headの中にstyleタグとして入れる	- color	- font-size	- margin-topからbottom	- 上下左右指定	- border-topからbottom	- text-align	- line-height	- padding-topからbottom	- background	- id	- class
 - CSSを外部ファイル化 - ブログサイトを作ってみよう	- 完成形を見せる(3-6)	- まずは2-2
+	
+##第12回####ブログサイトを作ってみよう
+- 記事部分のCSS	- bodyのフォントファミリー指定（いちいちポチポチ打たなくて良くなる）	- カンマで複数指定できる	- リセットCSSとして、bodyの上にa, h1, p {margin:0;}　以後タグが増えると増やす	- p63 css 2箇所	- p65 css 2箇所	- p67 html .menu	- p67 css ul, li {margin:0;}	- p69 css 1箇所	- .clearfixを追加	- p71 html / css	- p82 boxA boxB boxC	- p88 サイドメニュー html	- p89 h1 html	- p82 @mediaを入れる	- p90 サイドメニュー html 
