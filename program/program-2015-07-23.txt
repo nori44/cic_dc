@@ -1,0 +1,37 @@
+##第13回
+
+####HTML演習
+
+- コーポレートサイト下層ページ
+ - アクセス続き
+ - 採用情報
+ - サイトマップ
+ - お問い合わせ
+
+
+##第13回
+
+####ブログサイトを作ってみよう
+
+- グーグルクロームをインストール
+	- 「ディベロッパーツール」
+
+- 記事部分のCSS
+	- 画像配布
+	- .site h1, .menu ul, .copyright pをwidth:980px; margin-left, right
+	- p93 画像追加, CSS
+	- p97 背景色, バーの余白を増やす
+	- p98 :hover, 1px border
+	- p99 余白 B, Cはまとめてもよい
+	- p100 余白50px, box-sizing
+	- p104 @mediaを複数
+	- p106 600px以下設定。h1を変更, boxB, boxC
+	- ディベロッパーツール
+	- p108 上書き
+	- p110 boxB, C 横並べ
+	- p113 幅固定, @mediaの該当箇所を整理
+	- p115 webfonts, style
+	- p118 Font Awesomeでicon, html
+	- p122 ラベル部分のhtml, css
+	- p127
+	
