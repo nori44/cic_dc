@@ -360,3 +360,87 @@ table td {
     font-size: 10px;
     line-height: 1.6;
 }
+
+/* ここからアクセスCSS */
+.maparea {
+    width: 100%;
+    height: 180px;
+    margin: 0 0 5px 0;
+    overflow: hidden;
+}
+.accessArea .txt{
+    margin: 0 0 20px 0 ;
+}
+.accessArea .txt p{
+    font-size: 10px;
+    line-height: 1.6;
+}
+.accessArea .map p {
+    font-size: 10px;
+}
+
+/*ここから採用情報CSS*/
+.recruitArea .essential {
+    margin: 0 0 20px 0;
+}
+.recruitArea .essential p{
+    font-size: 10px;
+    line-height: 1.6;
+}
+.recruitArea .form .txt {
+    margin: 0 0 10px 0;
+    font-size: 10px;
+    line-height: 1.6;
+    color:#069;
+}
+.recruitArea .form .formList {
+    margin: 0 0 10px 0;
+}
+.formList {
+    padding: 10px 0 0 0 ;
+    border-top: #ddd dotted 1px;
+}
+.formList dt{
+    margin: 0 0 10px 0;
+    border-left: 4px solid #09c;
+    padding: 0 0 0 4px;
+}
+.formList dt b{
+    margin: 0 0 0 4px;
+    font-size: 10px;
+    color: #069;
+}
+.formList dd {
+    margin: 0 0 10px 0 ;
+    padding: 0 0 10px 0 ;
+    border-bottom: #ddd dotted 1px;
+}
+.formList dd p {
+    margin: 0 0 4px 0;
+}
+.formList dd label {
+    margin: 0 6px 0 0;
+}
+.formList dd span {
+    margin: 0 4px 0 0;
+}
+.formList dd input{
+    vertical-align: middle;
+}
+.formList dd select {
+    padding: 5px;
+}
+.formList dd input[type=checkbox],.formList dd input[type=radio]{
+    width: 24px;
+    height: 24px;
+    margin: 0 6px 4px 0;
+}
+.formList dd input[type=text],
+.formList dd input[type=email],
+.formList dd input[type=tel],
+.formList dd input[type=number],
+.formList dd input[type=password],
+.formList dd textarea {
+    padding: 6px;
+    border-radius: 4px;
+}

@@ -76,3 +76,5 @@
 	
 ##第12回####ブログサイトを作ってみよう
 - 記事部分のCSS	- bodyのフォントファミリー指定（いちいちポチポチ打たなくて良くなる）	- カンマで複数指定できる	- リセットCSSとして、bodyの上にa, h1, p {margin:0;}　以後タグが増えると増やす	- p63 css 2箇所	- p65 css 2箇所	- p67 html .menu	- p67 css ul, li {margin:0;}	- p69 css 1箇所	- .clearfixを追加	- p71 html / css	- p82 boxA boxB boxC	- p88 サイドメニュー html	- p89 h1 html	- p82 @mediaを入れる	- p90 サイドメニュー html 
+	
+##第13回####ブログサイトを作ってみよう- 記事部分のCSS	- 画像配布	- .site h1, .menu ul, .copyright pをwidth:980px; margin-left, right	- p93 画像追加, CSS	- p97 背景色, バーの余白を増やす	- p98 :hover, 1px border	- p99 余白 B, Cはまとめてもよい	- p100 余白50px, box-sizing	- p104 @mediaを複数
