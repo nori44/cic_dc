@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* Layout */
+html{
+}
+
+body{
+font-family:sans-serif;
+background:#9D9;
+}
+
+header{
+width:100%;
+height:600px;
+padding:100px 10px 0 400px;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+background:url(../img/MyRoom01.jpg) no-repeat 0 0;
+background-position: 40% 40%;
+-webkit-background-size:auto auto;
+background-size:cover;
+}
+
+header h1{
+margin:-20px 0 8px 0;
+font-size:50px;
+font-weight:bold;
+color:#FFF;
+}
+header h2{
+font-size:20px;
+font-weight:normal;
+color:#FFF;
+}
+
+
+nav{
+-webkit-box-shadow:0 2px 4px #FFF;
+box-shadow:0 2px 4px #FFF;
+}
+
+nav ul{
+}
+
+nav ul:after{
+content:"";
+clear:both;
+display:block;
+}
+
+nav ul li{
+float:left;
+width:25%;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(1.00, #D7DFE2), color-stop(0.00, #fff));
+background:-webkit-linear-gradient(top, #fff 0%, #DFD 100%);
+background:-moz-linear-gradient(top, #fff 0%, #DFD 100%);
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffffff', endColorstr='#ffD7DFE2', GradientType=0 );
+background:linear-gradient(top, #fff 0%, #DFD 100%);
+border:#373 solid 2px;
+}
+
+nav ul li a{
+display:block;
+height:22px;
+padding:58px 0 0 0;
+font-size:15px;
+color:#7C7;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+background:url(../img/icon01.png) no-repeat 50% 13px;
+background-size:40px 40px;
+-webkit-background-size:40px 40px;
+}
+nav ul li b{
+display:block;
+height:22px;
+padding:58px 0 0 0;
+font-size:15px;
+color:#7C7;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+background:url(../img/icon02.png) no-repeat 50% 13px;
+background-size:40px 40px;
+-webkit-background-size:40px 40px;
+}
+nav ul li c{
+display:block;
+height:22px;
+padding:58px 0 0 0;
+font-size:15px;
+color:#7C7;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+background:url(../img/icon03.png) no-repeat 50% 13px;
+background-size:40px 40px;
+-webkit-background-size:40px 40px;
+}

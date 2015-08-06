@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+body{
+    background-color: #000;
+}
+p{
+    text-align: center;
+}
+#a p{
+    margin: 50px 0 50px 0;
+    color: #cc33cc;
+    font-size: 30px;
+}
+#b p{
+    margin: 100px 0 0 0;
+    color: #fff;
+}
+
