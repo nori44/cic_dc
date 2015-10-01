@@ -18,9 +18,10 @@
 - 記事部分CSS
 	- test02で上書きについて学ぶ
 	- p106 スマホ表示だと文字がでかいので、上書きする
-	- p111 boxC-1などに分ける理由を解説,
+	- p111 boxC-1などに分ける理由を解説
 	- @mediaの該当箇所を整理
 	- p113 幅固定
 	- p115 webfonts, style
 	- p118 Font Awesomeでicon, html
 	- p122 ラベル部分のhtml, css
+	- p127 小見出しを付ける
