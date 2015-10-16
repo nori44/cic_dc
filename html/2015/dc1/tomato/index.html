@@ -5,7 +5,7 @@
 <title>CSS練習</title>
 <link rel="stylesheet" href="style.css">
 <link href='https://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="site">
@@ -24,10 +24,22 @@
 <div class="boxA clearfix">
 	<div class="boxB">
 		<div class="kiji">
+		  <div class="kijicat">
+		    <ul class="clearfix">
+		      <li><a href="#">食べ物</a></li>
+          <li><a href="#">お出掛け</a></li>
+		    </ul>
+		  </div><!-- kijicat -->
 			<h1>もぎたてトマトを美味しく食べたい！</h1>
+			<div class="kijiinfo">
+			  <time datetime="2015-10-16"><i class="fa fa-clock-o"></i>2015年10月16日</time>
+      </div><!-- kijiinfo -->
 			<p><img src="img/tomato.jpg"></p>
 			<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
-			<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+			<h2>新鮮なトマトの見分け方</h2>
+      <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+      <h2>もぎたてトマトの美味しい食べ方</h2>
+      <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
 		</div><!--kiji-->
 	</div><!-- boxB -->
 	<div class="boxC">
@@ -35,10 +47,10 @@
       <div class="sidemenu">
         <h2>特集記事</h2>
         <ul>
-          <li><a href="">特集記事１</a></li>
-          <li><a href="">特集記事２</a></li>
-          <li><a href="">特集記事３</a></li>
-          <li><a href="">特集記事４</a></li>
+          <li><a href=""><i class="fa fa-caret-right"></i>特集記事１</a></li>
+          <li><a href=""><i class="fa fa-caret-right"></i>特集記事２</a></li>
+          <li><a href=""><i class="fa fa-caret-right"></i>特集記事３</a></li>
+          <li><a href=""><i class="fa fa-caret-right"></i>特集記事４</a></li>
         </ul>
       </div><!-- sidemenu -->
       <div class="osusume">
@@ -55,10 +67,27 @@
       <div class="ninki">
         <h2>人気の記事</h2>
         <ul>
-          <li><a href="">人気の記事１</a></li>
-          <li><a href="">人気の記事２</a></li>
-          <li><a href="">人気の記事３</a></li>
-          <li><a href="">人気の記事４</a></li>
+          <li><a href="" class="clearfix">
+            <img src="img/sakura-60x60.jpg" alt="">
+            <div class="text">
+            人気の記事１<span>おでかけ</span>
+            </div>
+          </a></li>
+          <li><a href="" class="clearfix">
+            <img src="img/tel-60x60.jpg" alt="">
+            <div class="text">
+            人気の記事２<span>スマホ＆タブレット</span>
+            </div>
+          </a></li>
+          <li><a href="" class="clearfix">
+            <img src="img/green-60x60.jpg" alt="">
+            <div class="text">
+            人気の記事３<span>おでかけ</span>
+            </div>
+          </a></li>
+          <li><a href="" class="clearfix"><img src="img/bag-60x60.jpg" alt=""><div class="text">人気の記事４<span>雑貨</span></div></a></li>
+          <li><a href="" class="clearfix"><img src="img/color-60x60.jpg" alt=""><div class="text">人気の記事５<span>雑貨</span></div></a></li>
+          <li><a href="" class="clearfix"><img src="img/sea-60x60.jpg" alt=""><div class="text">人気の記事６<span>おでかけ</span></div></a></li>
         </ul>
       </div><!-- ninki -->
     </div><!--boxC-2-->
