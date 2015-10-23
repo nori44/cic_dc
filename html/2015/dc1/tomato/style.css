@@ -118,6 +118,33 @@ ul {
   width: auto;
 }
 
+/*SNSシェアボタン*/
+.share {
+  margin-top: 40px;
+}
+.share li a {
+  display: block;
+  padding:10px 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.share li a:hover {
+  opacity: 0.8;
+}
+.share li {
+  float: left;
+  width: 33.333%;
+}
+.share-tw {
+  background-color: #55acee;
+}
+.share-fb {
+  background-color: #3b5998;
+}
+.share-gp {
+  background-color: #dd4b39;
+}
 
 /* メニュー部分 */
 .menu {
@@ -167,7 +194,27 @@ ul {
 }
 .osusume li a{
 	display:block;
-	padding:5px;
+  margin-bottom: 10px;
+  position: relative; /*重ねるための設定*/
+}
+.osusume li a:hover{
+  background-color: #eee;
+  opacity: 0.8;
+}
+.osusume img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+.osusume .text {
+  padding: 5px 10px;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  position: absolute; /*重ねるための設定*/
+  bottom: 0; /*重ねるための設定*/
+  left: 0; /*重ねるための設定*/
+  width: 100%;
+  box-sizing: border-box;
 }
 .ninki {
 	margin-bottom:30px;
@@ -175,6 +222,8 @@ ul {
 .ninki li a{
 	display:block;
 	padding:5px;
+  color: #2288bb;
+  border-bottom: dotted 1px #ddd;
 }
 .ninki li a img {
   border: none;
@@ -185,6 +234,12 @@ ul {
   float: none;
   width: auto;
   margin-left: 60px;
+  padding-left: 15px;
+}
+.ninki span {
+  display: block;
+  color: #666;
+  font-size: 12px;
 }
 
 /* コピーライト */
@@ -220,6 +275,10 @@ ul {
   }
   .boxB {
     padding-top: 25px;
+  }
+  .share span{
+    display: inline-block;
+    text-indent: -9999px;
   }
 }
 

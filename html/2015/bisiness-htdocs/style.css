@@ -5,7 +5,7 @@ a {
   color: #000;
   text-decoration:none;
 }
-h1,h2,h3,h4,h5,h6,ul,li {
+h1,h2,h3,h4,h5,h6,ul,li,p,body {
   margin: 0;
   padding: 0;
 }
@@ -28,12 +28,16 @@ img {
   margin: 0;
   font-size: 30px;
 }
+.site h1 img{
+  vertical-align: baseline;
+}
 
 /*ナビゲーション*/
 .menu ul a {
   display: block;
   padding: 5px;
   font-size: 14px;
+  padding: 10px 15px;
 }
 .menu ul a:hover {
   background-color: #eee;
@@ -44,31 +48,119 @@ img {
 }
 
 /*お知らせ*/
+.news {
+  padding: 20px;
+  border: solid 5px #dddddd;
+}
+.news h1 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #666666;
+}
 .news li a {
   display: block;
   padding: 5px;
   border-bottom: dotted 2px #ddd;
+  overflow: hidden;
+  font-size: 14px;
 }
 .news li a:hover {
   background-color: #eee;
 }
 .news time {
-  margin-right: 10px;
   color: #888;
   font-weight: bold;
+  float: left;
+  width: 80px;
 }
-  
+.news .text {
+  float: none;
+  width: auto;
+  margin-left: 80px;
+}
+
+/*SNS*/
+.follow li a {
+  display: block;
+  padding: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.follow li a:hover {
+  opacity: 0.8;
+}
+.follow-tw {
+  background-color: #63bafb;
+}
+.follow-fb {
+  background-color: #5288f7;
+}
+.follow-gp {
+  background-color: #f65d4a;
+}
+
+/*コピーライト*/
+.copyright p {
+  color: #666666;
+  font-size: 14px;
+}
+.box5 {
+  background-color: #dddddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*ボックスの左右*/
+.boxA, .box4, .box5 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*ボックスの上下*/
+.boxA {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.box4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ----------599px以下------------ */
+@media (max-width: 599px) {
+/*  ナビゲーション*/
+  .menu li a {
+    padding: 10px 7px;
+    font-size: 11px;
+  }
+}
+
 /* ----------768px以上------------ */
 @media (min-width: 768px) {
 /* BOX1とBOX2を横に並べる設定 */
 
 .box1 {
   float: left;
-  width: 50%;
+  width: auto;
 }
 .box2 {
-  float: left;
-  width: 50%;
+  float: right;
+  width: auto;
 }
   
+}
+
+/* ----------1190px以上------------ */
+@media (min-width: 1190px) {
+/*全体の横幅を固定*/
+  .box3, .box4, .boxA-inner, .box5-inner {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*BOXAの下にborder*/
+  .boxA {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #dddddd;
+  }
 }
