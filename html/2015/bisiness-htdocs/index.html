@@ -16,7 +16,10 @@
           </div>
         </div>
         <div class="box2">
-          <nav class="menu">
+          <button type="button" id="menubtn">
+            <i class="fa fa-bars"></i><span>MENU</span>
+          </button>
+          <nav class="menu" id="menu">
             <ul class="clearfix">
               <li><a href="#">トップ</a></li>
               <li><a href="#">沿革</a></li>
@@ -105,5 +108,13 @@
         </div>
       </div><!-- box5-inner -->
     </div><!-- box5 -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function(){
+        $("#menubtn").click(function(){
+          $("#menu").stop().slideToggle();
+        });
+      });
+    </script>
   </body>
 </html>
