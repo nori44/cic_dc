@@ -5,6 +5,7 @@
     <title>TimeSwitch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../jquery.bxslider.css">
     <link rel="stylesheet" href="../style.css">
   </head>
   <body class="contents">
@@ -41,7 +42,11 @@
             </ol>
           </div>
           <h1>データの分析・解析</h1>
-          <img src="../img/header-data.jpg" alt="" class="kijiimg">
+          <ul class="bxslider">
+            <li><img src="../img/header-data.jpg" alt="" class="kijiimg"></li>
+            <li><img src="http://placehold.jp/1500x375.png" alt="" class="kijiimg"></li>
+            <li><img src="../img/header-data.jpg" alt="" class="kijiimg"></li>
+          </ul>
           <p class="lead">蓄積したデータを活用するためには、いかに分析・解析するかが大切なポイントとなります。TimeSwitchでは標準的な視点からの分析に加えて、活用目的に応じた解析も提供します。</p>
           <h2><i class="fa fa-check-square-o"></i>平均値のチェック</h2>
           <p>基本的な平均値のチェックです。対象データ群の代表的な値を知ることができます。ただし、平均値だけではデータの偏りなどの問題は見えてきません。</p>
@@ -53,6 +58,7 @@
       </div><!--box7-1-->
       <div class="box7-2">
         <aside class="sidemenu">
+          <h1><i class="fa fa-caret-square-o-down"></i>事業紹介</h1>
           <ul>
             <li><a href="#">データの蓄積</a></li>
             <li><a href="#">データの分析・解析</a></li>
@@ -72,10 +78,18 @@
       </div><!-- box5-inner -->
     </div><!-- box5 -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
     <script>
       $(function(){
         $("#menubtn").click(function(){
           $("#menu").stop().slideToggle();
+        });
+        $('.bxslider').bxSlider({
+          mode: 'fade',
+          speed: 1000,
+          auto: true,
+          pause: 100,
+          pager: false
         });
       });
     </script>
