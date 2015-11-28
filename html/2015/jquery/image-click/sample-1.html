@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>画像クリックで幅と高さ取得</title>
+  <style type="text/css">
+  .img-box {
+    position: relative;
+  }
+  .img-label {
+    color: #fff;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  </style>
+</head>
+<body>
+  <p><img src="http://placehold.jp/150x150.png" alt=""></p>
+
+  <p><img src="http://placehold.jp/300x150.png" alt=""></p>
+
+  <p><img src="http://placehold.jp/500x450.png" alt=""></p>
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+  $(function(){
+    $('img').click(function(){
+      var msg = $(this).width() + 'x' + $(this).height();
+      $(this).wrap('<div class="img-box"></div>'); //１番目に記述。div中身にtestとか入れる
+      var labelTxt = $('<div class="img-label">').text(msg);
+      $(this).after(labelTxt);
+    });
+  });
+  </script>
+</body>
+</html>
