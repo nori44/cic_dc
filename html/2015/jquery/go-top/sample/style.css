@@ -1,0 +1,23 @@
+p {
+	margin: 0 ;
+	padding: 0 ;
+}
+.page-top p{
+	position: fixed ; /*右下に配置する設定*/
+	right: 16px ;
+	bottom: 16px ;
+}
+.move-page-top{
+	display: block ;
+	background: #D36015 ;
+	width: 50px ;
+	height: 50px ;
+	color: #fff ;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;
+	transition:all 0.3s ; /*じんわり色を変える設定*/
+}
+.move-page-top:hover{
+	opacity: 0.85 ;
+}
