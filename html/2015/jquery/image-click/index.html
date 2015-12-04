@@ -3,9 +3,31 @@
 <head>
   <meta charset="utf-8">
   <title>画像クリックで幅と高さ取得</title>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+    //$(document).ready(function(){
+    $(function(){
+      var flag = 'default';
+      $('img').click(function(){
+        var size = $(this).width()+'x'+$(this).height();
+        var box = $('<div id="box">').text(size).css('position','absolute').css('top','0');
+        if(flag == 'default'){
+          $(this).wrap('<div style="position:relative"></div>');
+          $(this).after(box);
+          flag = 'changed';
+        } else if (flag == 'changed'){
+          $('#box').remove();
+          flag = 'changed02';
+        } else {
+          $(this).after(box);
+          flag = 'changed';
+        }
+      });
+    });
+  </script>
 </head>
 <body>
   <p><img src="http://placehold.jp/150x150.png" alt=""></p>
-  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <p id="text">てすとテキスト</p>
 </body>
 </html>
