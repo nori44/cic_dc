@@ -2,8 +2,15 @@
 
 #### jQueryプラグイン
 - imgクリックで取得するやつ
+<<<<<<< HEAD:docs/program/program-2015-12-04.txt
  - domを表示させたら何かする
  - 表示の違い
+=======
+ - 
+
+- トップへ戻るボタン
+https://syncer.jp/jquery-to-top-button
+>>>>>>> a9b8d535ae1c69a62a4fdcb140f5dfeabb9a250a:docs/program/text/program-2015-12-04.txt
  
 - 上に戻る
 
@@ -13,9 +20,15 @@
 ####地図を作ろう
 - 地図を作る
  - 高崎駅
+<<<<<<< HEAD:docs/program/program-2015-12-04.txt
  - ルートを作る
  - その他好きな地図を作ってみよう！
  - かっこいい地図
  - 地図を作るポイント（分かれ道や目立つビル、ランドマーク）
  
 - トマト
+=======
+
+####トマトのトップページ
+- 
+>>>>>>> a9b8d535ae1c69a62a4fdcb140f5dfeabb9a250a:docs/program/text/program-2015-12-04.txt

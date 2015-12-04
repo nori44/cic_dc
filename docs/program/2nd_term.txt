@@ -26,11 +26,11 @@ DC II
 #5 tomato 5
 #6 Logo作り 1
 #7 Logo作り 2
-#8 Logo作り 3 
-#9 地図作り 
-#10 地図作り 
-#11 business 
-#12 business 
-#13 business 
+#8 地図作り
+#9 地図作り / tomato 6
+#10 tomato 7
+#11 オリジナルサイト制作
+#12 オリジナルサイト制作 
+#13 オリジナルサイト制作 
 #14
 #15
