@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+/* ------------------------------------- */
+/*	 Header
+/* ------------------------------------- */
+#header {
+	padding-top: 20px;
+	background-color: #eee;
+}
+
+/*  logo
+/*--------------------------------- */
+.logo{ /* センタリング */
+	text-align: center;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.logo h1 { /* 丸とフォントのスタイリング */
+	margin: 0;
+	padding-top: 38px;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-size: 26px;
+	color: #7E7E7E;
+	background-color: #fff;
+}
+
+
+/*  nav
+/*--------------------------------- */
+@media (min-width: 768px){ /* xsサイズでの崩れ防止 */
+	.navbar {
+		border-radius: 0;
+	}
+	
+	.navbar-nav {
+		float: none;
+		width: 400px;
+		margin: 10px auto;
+	}
+	
+	.navbar-nav>li {
+		text-align: center;
+		float: left;
+		width: 80px;
+		border-right: 1px solid #000;
+	}
+	.navbar-nav>li.first {
+		border-left: 1px solid #000;
+	}
+	
+	.navbar-nav>li>a {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	.navbar-default {
+		background-color: #7E7E7E;
+		border:none;
+	}
+	
+	.navbar-default .navbar-nav>li>a {
+		color: #fff;
+	}
+}
+
+/* navスタイリング */
+@media (max-width: 768px){
+	.navbar-default {
+		border-color: #7E7E7E;
+	}
+
+	.navbar-header {
+		background-color: #7E7E7E;
+	}
+
+	.navbar-default .navbar-toggle {
+		border-color: #FFF;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: #FFF;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #FFF;
+	}
+	.navbar-default .navbar-toggle:hover > .icon-bar,
+	.navbar-default .navbar-toggle:focus > .icon-bar {
+		background-color: #7E7E7E;
+	}
+	
+	.navbar-default .navbar-brand {
+		color: #FFF;
+	}
+}
+
+/*  nav
+/*--------------------------------- */
+.navbar {
+	margin-bottom: 0; /* 追記 */
+}
+
+
+/*  carousel
+/*--------------------------------- */
+.carousel-inner img{ /* フルワイド化 */
+	width: 100%;
+}
+
+
+
+/* ------------------------------------- */
+/*	 content
+/* ------------------------------------- */
+.title{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.text-box{
+	margin-bottom: 40px;
+}
+
+/*  panel-box
+/*--------------------------------- */
+.panel {
+	margin-bottom: 20px;
+	background-color: #D1D1D1;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.panel-body {
+	text-align: center;
+	height: 180px;
+	padding-top: 90px;
+	color: #888;
+	font-size: 18px;
+}
+
+.panel-footer {
+	text-align: center;
+	padding: 18px 15px;
+	background-color: #7E7E7E;
+	border-top: none;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media (max-width: 768px){
+	.panel{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*  button-box
+/*--------------------------------- */
+.button-box{
+	text-align: center;
+	padding: 60px 0;
+	margin-top: 40px;
+	background-color: #eee;
+}
+
+.button-box p{
+	color: #888;
+}
+
+.btn {
+	padding: 12px 80px;
+}
+
+.button-box .btn-default{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #7E7E7E;
+}
+
+
+
+/* ------------------------------------- */
+/*	  Footer
+/* ------------------------------------- */
+#footer{
+	text-align: center;
+	padding: 40px 0;
+	background-color: #7E7E7E;
+}
+
+/*  logo
+/*--------------------------------- */
+#footer .logo{
+	margin-top: 0;
+}
+
+.logo p { /* 丸とフォントのスタイリング */
+	margin: 0;
+	padding-top: 34px;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-size: 26px;
+	color: #7E7E7E;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+/*  nav
+/*--------------------------------- */
+#footer .navbar-nav>li {
+	border-right: 1px solid #000;
+}
+#footer .navbar-nav>li.first{
+	border-left: 1px solid #000;
+}
+
+#footer .navbar-nav li a{
+	color: #fff;
+}
+
+
+/*  sns-icon
+/*--------------------------------- */
+.sns-icon{
+	margin-top: 30px;
+}
+
+.sns-icon li{
+	padding-left: 20px;
+}
+.sns-icon li:hover{
+	color: #fff;
+}
+
+/*  copy
+/*--------------------------------- */
+.copy{
+	margin-top: 20px;
+}
+
+.copy span{
+	color: #333;
+}
