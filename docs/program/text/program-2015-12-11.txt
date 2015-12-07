@@ -1,8 +1,15 @@
 ##第10回
 
-#### jQueryプラグイン
-- 間違い探し
- - 
+#### Bootstrap
+- bootstrapとは何か。レスポンシブデザインのCSSを導入しやすい枠組み。
+- テンプレhtml
+- bootstrapのJS, css, jqueryのJS, font awsomeのCSSのCDNを入れる
+- ヘッダー部分HTML
+- ヘッダーCSS
+- フッター
+- スライドショー
+- コンテンツ部分
+- レスポンシブ対応
 
 ##第10回
  
