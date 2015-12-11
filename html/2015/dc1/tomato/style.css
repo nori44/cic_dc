@@ -245,6 +245,47 @@ ul {
   font-size: 12px;
 }
 
+/*概要*/
+.gaiyou {
+  margin-bottom: 20px
+}
+.gaiyou h1 {
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 22px;
+}
+.gaiyou p {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.gaiyou img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  margin-bottom: 15px;
+}
+.gaiyou a {
+  color:#000;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  display: block;
+}
+.gaiyou a:hover {
+  box-shadow: 0 0 10px #bbb;
+}
+.more {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #3077be;
+  color: #fff;
+}
+.more i {
+  margin-left: 10px;
+}
+
 /* コピーライト */
 .copyright {
 	border-top:solid 1px #dddddd;
@@ -255,6 +296,13 @@ ul {
 	color:#666666;
 	font-size:12px;
 }
+
+/*ボックスの上下の間隔*/
+.top .boxA {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 
 /* レスポンシブ設定 */
 
@@ -294,6 +342,23 @@ ul {
   }
 }
 
+/* 600px以上 */
+@media (min-width:600px) {
+  .boxA-1 .gaiyou {
+    float: left;
+    width: 50%;
+  }
+  .boxA-1 .gaiyou:nth-child(odd){
+    padding-right: 15px;
+    box-sizing: border-box;
+    clear: both;
+  }
+  .boxA-1 .gaiyou:nth-child(even){
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+}
+
 /* 600px以上〜767px以下 */
 @media (min-width:600px) and (max-width:767px){
   
@@ -322,11 +387,14 @@ ul {
     float:left;
     width:30%;
   }
+  .pickup h1 {
+    font-size: 30px;
+  }
 }
 
 /* 980px以上 */
 @media (min-width:980px){
-  .boxA{
+  .boxA, .boxA-1{
     width:980px;
     margin-left:auto;
     margin-right:auto;
