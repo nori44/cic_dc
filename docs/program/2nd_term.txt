@@ -1,37 +1,44 @@
-DC IV
+#2nd term
 
-#1 recruite, sitemap, contact
-#2 contact 
-#3 レスポンシブ, 検証ツール
-#4 レスポンシブ
-#5 レスポンシブ
-#6 レスポンシブ
-#7 レスポンシブ
-#8 jQuery プラグイン - クリックして数値取得
-#9 jQuery トップへ戻る
-#10 Bootstrap 1
+#DC IV
+
+1 recruite, sitemap, contact
+2 contact 
+3 レスポンシブ, 検証ツール
+4 レスポンシブ
+5 レスポンシブ
+6 レスポンシブ
+7 レスポンシブ
+8 jQuery プラグイン - クリックして数値取得
+9 jQuery トップへ戻る
+10 Bootstrap 1
+
 --
-#11 Bootstrap 2
-#12 
-#13 
-#14 
-#15
+
+11 Bootstrap 2
+12 実践！ウェブサイトを作ろう 1
+13 実践！ウェブサイトを作ろう 2
+14 Axit 1
+15 Axit 2
 
 
-DC II
+#DC II
 
-#1 bracketsのインストール, レスポンシブ振り返り, P111から
-#2 tomato 2
-#3 tomato 3
-#4 tomato 4
-#5 tomato 5
-#6 Logo作り 1
-#7 Logo作り 2
-#8 地図作り
-#9 地図作り / tomato 6
-#10 tomato 7
-#11 tomato 8
-#12 
-#13 
-#14 
-#15 
+1 bracketsのインストール, レスポンシブ振り返り, P111から
+2 tomato 2
+3 tomato 3
+4 tomato 4
+5 tomato 5
+6 Logo作り 1
+7 Logo作り 2
+8 地図作り
+9 地図作り / tomato 6
+10 tomato 7
+
+--
+
+11 tomato 8
+12 サイトを作ろう 1 企画書作成
+13 サイトを作ろう 2 デザイン（通常のワークフローの紹介、PSDのスライスなどの説明）、ロゴとメイン写真作成差し替え
+14 サイトを作ろう 3 デザイン発表＆HTML
+15 サイトを作ろう 4 CSS
