@@ -286,6 +286,52 @@ ul {
   margin-left: 10px;
 }
 
+/* バッジ */
+.pickup {
+  position: relative;
+}
+.badge {
+  width: 120px;
+  height: 120px;
+  background-color: #00a0e9;
+  color: #fff;
+  text-align: center;
+  padding-top: 25px;
+  box-sizing: border-box;
+  border-radius: 999px;
+  position: absolute;
+  top:44%;
+  right: -15px;
+  box-shadow: 0 0 4px #aaa;
+}
+.badge i {
+  font-size: 40px;
+  display: block;
+}
+
+/* ページネーション */
+.pagenation {
+  text-align: center;
+}
+.pagenation ul {
+  display: inline-block;
+}
+.pagenation li {
+  float: left;
+  width: auto;
+}
+.pagenation li a {
+  display: block;
+  padding: 5px 10px;
+  color: #000;
+  text-decoration: none;
+  border: solid 1px #aaa;
+  margin: 0 5px;
+}
+.pagenation li a:hover,.pagenation li a.active {
+  background-color: #ccc;
+}
+
 /* コピーライト */
 .copyright {
 	border-top:solid 1px #dddddd;
@@ -308,6 +354,13 @@ ul {
 
 /* 599px以下 */
 @media (max-width:599px){
+  /*バッジ*/
+  .badge {
+    transform: scale(0.5);
+    transform-origin: right top;
+    top:-8px;
+    right: 10px;
+  }
   
   .menu li a {
     padding: 10px 3px;
@@ -361,7 +414,11 @@ ul {
 
 /* 600px以上〜767px以下 */
 @media (min-width:600px) and (max-width:767px){
-  
+  /*バッジ*/
+  .badge {
+    top: 25%;
+    right: 15px;
+  }
   .boxC-1,.boxC-2 {
     float: left;
     width: 50%;
