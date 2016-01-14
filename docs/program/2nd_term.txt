@@ -16,9 +16,9 @@
 --
 
 11 Bootstrap 2
-12 Axit 1
-13 Axit 2
-14 
+12 float / position
+13 
+14 activbox 1
 15 
 
 
