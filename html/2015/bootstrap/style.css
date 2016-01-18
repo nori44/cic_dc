@@ -18,24 +18,27 @@
   padding-top: 38px;
   font-size: 26px;
 }
+/* navigation */
 .navbar{
   margin-bottom: 0;
 }
-.navbar-nav {
-  width: 400px;
-  margin: 10px auto;
-  float: none;
-}
-.navbar-nav li {
-  border-right: 1px solid #555;
-  width: 80px;
-  text-align: center;
-}
-.navbar-nav li:first-child {
-  border-left: 1px solid #555;
-}
-.navbar-nav li a{
-  padding: 5px 15px;
+@media(min-width: 768px){
+  .navbar-nav {
+    width: 400px;
+    margin: 10px auto;
+    float: none;
+  }
+  .navbar-nav li {
+    border-right: 1px solid #555;
+    width: 80px;
+    text-align: center;
+  }
+  .navbar-nav li:first-child {
+    border-left: 1px solid #555;
+  }
+  .navbar-nav li a{
+    padding: 5px 15px;
+  }
 }
 
 /*----carousel----*/
@@ -57,6 +60,12 @@
   background-color: #ddd;
   border-radius: 0;
   border: none;
+}
+@media(max-width: 768px){
+  .panel {
+    max-width: 400px;
+    margin: 0 auto 20px;
+  }
 }
 .panel-body {
   text-align: center;
