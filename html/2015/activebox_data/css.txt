@@ -1,0 +1,15 @@
+.header-heroに背景画像を設定
+background-image
+
+.header-contに幅を設定
+width:1170px
+中央寄せ
+
+.header-nav h1を左寄せ、.header-nav ulを右寄せ
+.header-navのfloatを解除
+下にboder: #4f516a 1px、上下padding: 37px
+
+.header-nav ul liを左寄せ、margin-left:60px
+.header-nav ulのfloatを解除
+.header-nav ul li aの色は白、サイズは12px、font-weight: bold
+
