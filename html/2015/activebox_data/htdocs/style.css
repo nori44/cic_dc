@@ -46,6 +46,65 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
 /* --------ここから本体CSS-------- */
+p {line-height: 1.7;}
 
+.header-hero {
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #343551;
+}
+.header-cont {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-nav {
+  border-bottom: 1px #4f516a solid;
+  padding: 37px 0;
+}
+.header-nav h1 {
+  float: left;
+}
+.header-nav ul {
+  float: right;
+}
+.header-nav ul li{
+  float: left;
+  margin-left: 60px;
+}
+.header-nav ul li a {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-cont h2 {
+  margin-top: 140px;
+  font-size: 50px;
+  color: white;
+  line-height: 1.35; /*追記*/
+  font-weight: bold; /*追記*/
+}
+.header-read {
+  color: white;
+  margin-top: 20px;
+  line-height: 1.5; /*追記*/
+}
+.header-btn  {
+  display: inline-block;
+  padding: 15px 55px;
+  background-color: #e84564;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 80px; /*追記*/
+  border-radius: 2px;
+}

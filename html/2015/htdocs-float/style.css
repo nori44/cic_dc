@@ -1,0 +1,32 @@
+.clearfix:after {/*フロートの解除*/
+  content: "";
+  display: block;
+  clear: both;
+  /*clearfixはフロートをしたタグの親要素（包んでいるタグ）に付ける*/
+}
+
+.wrap {
+  width: 960px;
+  background-color: #ccc;
+}
+.header {
+  background-color: #f00;
+}
+.main-conts {
+  background-color: #333;
+}
+.main {
+  background-color: #0f0;
+  width: 700px;/*フロートを使う場合は幅を設定することが多い*/
+  float: left;/*フロートを使うと横に並べられる*/
+  /*フロートを使った場合はフロートを解除しなければだめ*/
+}
+.sub {
+  background-color: #00f;
+  width: 260px;
+  float: right;
+}
+.footer {
+  clear: both; /*フロートの解除。ただしこれ単体では万能じゃない*/
+  background-color: #f0f;
+}
