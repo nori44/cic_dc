@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  color: #303133;
 }
 ol, ul {
   list-style: none;
@@ -108,3 +109,67 @@ p {line-height: 1.7;}
   margin-bottom: 80px; /*追記*/
   border-radius: 2px;
 }
+.team-area {
+  width: 1170px;
+  margin: 50px auto;
+}
+.team-area li {
+  float: left;
+  width: 270px;
+  margin-left: 30px;
+}
+.team-area li:first-child {
+  margin-left: 0;
+}
+.team-area h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.team-area h3 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  color: #ec5872;
+}
+.team-area p {
+  line-height: 1.5;
+}
+.footer-top {
+  background-color: #3a3e63;
+  padding: 65px 0 70px;
+}
+.footer-top ul{
+  width: 1170px;
+  margin: 0 auto;
+}
+.footer-top ul li{
+  width: 370px;
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+}
+.footer-top ul li h2{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-top ul li p{
+  color: #7c7e98;
+}
+.footer-top ul li:first-child{
+  margin-left: 0;
+}
+.footer-bottom {
+  background-color: #313455;
+  text-align: center;
+  color: #808080;
+  font-size: 13px;
+  padding: 20px 0 ;
+}
+.footer-bottom span{
+  color: #fff;
+}
+
+
+
+
