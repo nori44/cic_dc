@@ -3,7 +3,7 @@
 #DC III
 
 1 名刺作る、アイコン作って思い出す
-2 PS合成（テーマを決めて作品を作る）、昼を夜に
+2 PS合成（テーマを決めて作品を作る）、パッケージデザイン？
 3 HTML / CSS
 4 
 5 
@@ -22,8 +22,8 @@
 #DC I
 
 1 Macのカスタマイズ方法, キーノートで自己紹介をしよう
-2 キーノート自己紹介続き, Illustrator基礎
-3 Photoshop基礎
+2 キーノート自己紹介続き, HTMLとインターネットの歴史, このコースで学べること
+3 Illustrator基礎, Photoshop基礎
 4 Illustratorベジェ
 5 Photoshop写真補正
 6 Illustrator名刺作成
