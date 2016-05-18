@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>TimeSwitch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="boxA clearfix">
+      <div class="boxA-inner">
+        <div class="box1">
+          <div class="site">
+            <h1><a href=""><img src="img/logo.png" alt="TimeSwitch"></a></h1>
+          </div>
+        </div>
+        <div class="box2">
+          <button type="button" id="menubtn">
+            <i class="fa fa-bars"></i><span>MENU</span>
+          </button>
+          <nav class="menu" id="menu">
+            <ul class="clearfix">
+              <li><a href="#">トップ</a></li>
+              <li><a href="#">沿革</a></li>
+              <li><a href="#">事業紹介</a></li>
+              <li><a href="#">採用情報</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div><!--boxA-inner-->
+    </div><!--boxA-->
+    <div class="box3">
+      <div class="top">
+        <img src="img/header.jpg" alt="" class="topimg">
+        <p class="catch">TimeSwichはデータの蓄積と<br>分析・解析のサービスを提供します。</p>
+      </div>
+    </div><!--box3-->
+    <div class="box6 clearfix">
+      <div class="box6-1">
+        <div class="gaiyou">
+          <a href="">
+            <i class="fa fa-database"></i>
+            <h1>データの分析・解析</h1>
+            <p>目的に応じてさまざな角度から<br>データを分析・解析します。</p>
+          </a>
+        </div>
+      </div>
+      <div class="box6-2">
+        <div class="gaiyou">
+          <a href="">
+            <i class="fa fa-bar-chart-o"></i>
+            <h1>わかりやすく視覚化</h1>
+            <p>解析結果はわかりやすく視覚化し、<br>活用できるようにします。</p>
+          </a>
+        </div>
+      </div>
+      <div class="box6-3">
+        <div class="gaiyou">
+          <a href="">
+            <i class="fa fa-envelope"></i>
+            <h1>24時間サポート</h1>
+            <p>24時間サポートでトラブルにも<br>素早く対応します。</p>
+          </a>
+        </div>
+      </div>
+    </div><!--box6-->
+    <div class="box4 clearfix">
+      <div class="box4-1">
+        <div class="news">
+          <h1>お知らせ</h1>
+          <ul>
+            <li><a href="">
+              <time datetime="2015-10-16">10月16日</time>
+              <div class="text">データセンターのメンテナンスを行います。</div>
+            </a></li>
+            <li><a href="">
+              <time datetime="2015-10-15">10月15日</time>
+              <div class="text">データセンターのメンテナンスを行います。</div>
+            </a></li>
+            <li><a href="">
+              <time datetime="2015-10-14">10月14日</time>
+              <div class="text">データセンターのメンテナンスを行います。</div>
+            </a></li>
+            <li><a href="">
+              <time datetime="2015-10-13">10月13日</time>
+              <div class="text">データセンターのメンテナンスを行います。</div>
+            </a></li>
+          </ul>
+        </div><!-- news -->
+      </div><!-- box4-1 -->
+      <div class="box4-2">
+        <div class="follow">
+          <h2 class="follow-info">最新情報はこちらで配信しています</h2>
+          <ul>
+            <li><a href="" class="follow-tw"><i class="fa fa-twitter fa-fw"></i>Twitter</a></li>
+            <li><a href="" class="follow-fb"><i class="fa fa-facebook fa-fw"></i>Facebook</a></li>
+            <li><a href="" class="follow-gp"><i class="fa fa-google-plus fa-fw"></i>Google+</a></li>
+          </ul>
+        </div><!--follow-->
+      </div><!-- box4-2 -->
+    </div><!-- box4 -->
+    <div class="box5">
+      <div class="box5-inner">
+        <div class="copyright">
+          <p>Copyright &copy; TimeSwitch</p>
+        </div>
+      </div><!-- box5-inner -->
+    </div><!-- box5 -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function(){
+        $("#menubtn").click(function(){
+          $("#menu").stop().slideToggle();
+        });
+      });
+    </script>
+  </body>
+</html>
