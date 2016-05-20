@@ -1,0 +1,26 @@
+#DC III
+ 
+##コーポレートサイト
+ - HTML header部分
+ - CSS リセット
+ - CSS header部分
+ - 左右floatするbox
+
+
+#DC I
+
+##HTML
+ - formの
+ - パスなどは未解説
+ - index.htmlがないとディレクトリはどうなるか
+ - contact.htmlのファイル名をindex.htmlに。contact/ディレクトリを作る
+ - about/index.htmlを作る
+ 
+##CSS
+ - テキスト関連
+ - マージン, padding
+ - border
+ - bg
+ - formを装飾する
+
+
