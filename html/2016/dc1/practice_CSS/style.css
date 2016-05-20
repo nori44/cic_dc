@@ -3,13 +3,14 @@
 h1 {
 	color : #9f1761;
 	font-size : 100px;
-	margin : 80px 10px 300px 100px;
-	border:3px #333 solid;
 	text-align:center;
 	line-height:1;
 	padding:50px;
+	margin : 80px 10px 300px 100px;
+	border:3px #333 solid;
 	background:#888;
 }
+/* やっていいスペース、だめなスペース、見やすくするための改行スペース */
 /* margin : ↑ → ↓ ← ; 上から時計回り */
 h2 {
 	margin: 20px 80px;
