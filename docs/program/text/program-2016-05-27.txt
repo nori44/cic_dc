@@ -5,18 +5,29 @@
  - CSS リセット
  - CSS header部分
  - 左右floatするbox
+ - clearfix
+ - headerレスポンシブ部分
 
 
 #DC I
 
 ##HTML
- - formの
- - パスなどは未解説
- - index.htmlがないとディレクトリはどうなるか
- - contact.htmlのファイル名をindex.htmlに。contact/ディレクトリを作る
+ - form
+ - ディレクトリについて
+	- index.htmlがないとディレクトリはどうなるか
+	- contact.htmlのファイル名をindex.htmlに。contact/ディレクトリを作る
  - about/index.htmlを作る
+ 	- 見出しとグロナビ
+	- グロナビはcontact, indexどちらも修正
+ - imgについて。一つ上の階層のデータを参照する方法
+	- 同一階層にあるphoto.jpgをimgのディレクトリに入れる。
+	- img/photo.jpgを読み込む
+	- about/index.htmlからphoto.jpgを読み込む
  
 ##CSS
+ - CSSとはカスケーディング・スタイル・シート
+ - CSSを書く場所が３種類ある
+ - chromeを入れてdeveloper toolについて解説
  - テキスト関連
  - マージン, padding
  - border
