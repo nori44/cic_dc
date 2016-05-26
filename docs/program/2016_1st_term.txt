@@ -8,12 +8,14 @@
 4 HTML / CSS
 5 HTML / CSS 2
 6 
-7 
-8 
-9 
+7
+8
+
+##前期でやりたいこと
 Photoshopで合成
 Prottを使ってプロトタイプのアプリを作る
 マテリアルデザインでパーツを作る
+bootstrap, foundationフレームワーク
 
 
 #DC I
@@ -22,12 +24,15 @@ Prottを使ってプロトタイプのアプリを作る
 2 キーノート自己紹介続き, HTMLとインターネットの歴史, このコースで学べること
 3 HTML基礎 1
 4 HTML基礎 2
-5 CSS基礎, ディレクトリ／パスの構成
-6
-7
+5 ディレクトリ／パスの構成, CSS基礎:classとid
+6 CSS続き:floatとclearfix
+7 基本となるページを作る
+8
 
-4 Illustrator基礎, Photoshop基礎
-5 Illustratorベジェ
-6 Photoshop写真補正
-7 Illustrator名刺作成 
-15 
+##前期でやりたいこと
+Illustrator基礎, Photoshop基礎
+Illustratorベジェ
+Illustratorベジェでトレース課題をやってもらう
+Illustrator名刺作成 
+Photoshop写真補正
+PSで合成, コピースタンプツール
