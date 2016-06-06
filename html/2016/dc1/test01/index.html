@@ -2,108 +2,52 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>HTML練習</title>
-<link rel="stylesheet" href="style.css">
-<!--コメントを書くときはこの記号で包む-->
+<title>HTML練習｜コンタクトページ</title>
 </head>
-
 <body>
-<!--bodyタグの中が、ブラウザに表示させる部分-->
-<p>包むタグと包まないタグがある</p>
-<p>タグのことを要素とも言う</p>
-<h1>HTML練習のページです</h1>
-<h2>HTML練習中</h2>
-<h3>練習その３</h3>
-<h4>見出しレベル４</h4>
-<h5>見出しレベル５</h5>
-<h6>見出しレベル６</h6>
-<h7>見出しレベル7</h7><!-- h7は存在しない -->
-<p>入れ子を間違ってはいけない<p></p>入れ子を間違ってはいけない</p>
 
-<img src="../img/abc/header001.jpg">
-<a href="https://www.google.co.jp" target="_blank">Google</a>
-<a href="about/index.html">アバウトページへ</a>
-<a href="./contact/index.html">コンタクトページへ</a>
-<p>間違った例<p>間違った例</p></p>
-<!--同じような単語が並ぶときはリスト-->
-<ul>
-<li>トマト</li>
-<li>きゅうり</li>
-<li>かぼちゃ</li>
-</ul><!--コメント-->
+<h1>コンタクトページ</h1>
+<a href="../index.html">トップページへ</a>
+<a href="../about/index.html">アバウトページへ</a>
+<a href="./index.html">コンタクトページ</a>
 
-<ol>
-<li>はじめに</li>
-<li>つぎに</li>
-<li>さいごに</li>
-</ol>
+   <form class="form" id="form1">
+      
+      <p class="text">
+        <input name="name" type="text" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="text">
+        <input name="email" type="text" placeholder="Email" id="email" />
+      </p>
 
-<dl>
-<dt>トマト</dt>
-<dd>１８０円 </dd>
-<dt>きゅうり</dt>
-<dd>１１０円</dd>
-<dt>かぼちゃ</dt>
-<dd>２５０円</dd>
-</dl>
+      <p class="select">
+        <select id="address01" required="required">  
+        <option value="" selected="selected">--選択してください--</option>
+        <option value="茨城県">茨城県</option>
+        <option value="栃木県">栃木県</option>
+        <option value="群馬県">群馬県</option>
+        <option value="埼玉県">埼玉県</option>
+        <option value="千葉県">千葉県</option>
+        <option value="東京都">東京都</option>
+        <option value="神奈川県">神奈川県</option>
+        </select>
+      </p>
 
-<table>
-	<tr><!-- table row -->
-		<th>トマト</th>
-		<td>180円</td>
-	</tr>
-	<tr>
-		<th>きゅうり</th>
-		<td>110円</td>
-	</tr>
-	<tr>
-		<th>かぼちゃ</th>
-		<td>250円</td>
-	</tr>
-</table>
+      <p class="radio">
+        <label for="good"><input type="radio" name="hyouka" id="good" value="good" checked="checked">良い</label>
+        <label for="bad"><input type="radio" name="hyouka" id="bad" value="bad">悪い</label>
+      </p>
 
-<table>
-	<tr>
-		<th>トマト</th>
-		<th>きゅうり</th>
-		<th>かぼちゃ</th>
-	</tr>
-	<tr>
-		<td>180円</td>
-		<td>110円</td>
-		<td>250円</td>
-	</tr>
-</table>
-
-<div>特に意味のないタグがdiv</div><div>特に意味のないタグがdiv</div><div>特に意味のないタグがdiv</div><div>特に意味のないタグがdiv</div>
-<!--スタイルシート = CSSで装飾するときに役立つのがdivとspan-->
-<span>特に意味の<br>ないタグがspan</span><span>特に意味のないタグがspan</span><span>特に意味のないタグがspan</span><span>特に意味のないタグがspan</span>
-
-<p>
-あいうえお
-<br>
-かきくけこ
-さしすせそ
-</p>
-
-<p>タグによって、横に並ぶタグと縦に並ぶタグがある</p>
-
-<h3>横に並ぶ：インライン（要素）</h3>
-<ul>
-<li>aタグ</li>
-<li>imgタグ</li>
-<li>spanタグ</li>
-<li>ほか</li>
-</ul>
-
-<h3>縦に並ぶ：ブロック（要素）</h3>
-<ul>
-<li>pタグ</li>
-<li>divタグ</li>
-<li>ul, li, ol, dl, dt, ddタグ</li>
-<li>h1からh6</li>
-<li>ほかいろいろ</li>
-</ul>
-
+      <p class="text">
+        <textarea name="text" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
 </body>
 </html>
