@@ -1,0 +1,37 @@
+#DC III
+ 
+##コーポレートサイト
+ - 幅が同じ部分を共通パーツとしてまとめる
+ - clearfixチェック
+ - headerレスポンシブ部分
+  - 縮小されたら横一列表示+非表示
+  - 切り替えるのはJS
+ - メインビジュアル
+  - 絶対配置
+ - ３つのコンテンツ
+ - news部分
+
+
+#DC I
+ 
+##CSS
+ - bg
+ - marginの複数数値を入れたときの挙動
+ - padding複数数値
+ - 数値が三種類ある
+  - px, %, em
+ - buttonを作ってみる
+  - bg-color
+  - padding
+  - display:inline-block
+  - text-align:center
+  - font-size
+  - color
+  - border-radius
+ - ボタンを作る課題
+ - chromeを入れてdeveloper toolについて解説
+  - 選ぶと色が違う。数字が出る。cssの行数が出る。
+  - 複数あるときは下のものが上書きされる
+  - 強さが違う場合は強いほうが出る
+ - formのスタイルを装飾する 
+
