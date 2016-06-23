@@ -7,9 +7,10 @@
 3 名刺とパッケージデザインの講評
 4 HTML / CSS
 5 HTML / CSS 2
-6 
-7
-8
+6 HTML / CSS 3
+7 HTML / CSS 4
+8 HTML / CSS 5
+9
 
 ##前期でやりたいこと
 Photoshopで合成
@@ -25,9 +26,10 @@ bootstrap, foundationフレームワーク
 3 HTML基礎 1
 4 HTML基礎 2
 5 ディレクトリ／パスの構成, CSS基礎:classとid
-6 CSS続き:floatとclearfix
-7 基本となるページを作る
-8
+6 CSS続き:
+7 CSS続き:ボタンを作る
+8 うちのにゃんこ
+9
 
 ##前期でやりたいこと
 Illustrator基礎, Photoshop基礎
