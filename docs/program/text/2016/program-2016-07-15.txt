@@ -9,16 +9,18 @@
 
 ##概論
  - プログラマ（エンジニア）の美徳
+ - http://itpro.nikkeibp.co.jp/article/Watcher/20061005/250057/
  - https://goo.gl/lRozfo
 
 ##Bootstrap基本
  - なんぞや
  - 公式site
- - 基本のhtml
+ - emmetでhtml書く
+ - 基本のhtmlをコピペ
+ - grid
+ - table
  - typo
  - button
- - table
- - grid
 
 
 #DC I
@@ -26,3 +28,8 @@
 ##うちの猫サンプル
  - メールフォーム
  - float
+  - カラムを横に並べる
+  - 続く要素でclearをする。left, right, both
+  - ul > liメニューを横に並べる
+  - 背景色をつけるが色がつかない
+  - 
