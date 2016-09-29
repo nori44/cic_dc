@@ -1,0 +1,25 @@
+#2nd term
+
+#DC IV
+
+1 pixlr, sketch, prott
+2 
+
+##やりたいこと
+Prottを使ってプロトタイプのアプリを作る
+マテリアルデザインでパーツを作る
+
+
+#DC II
+
+1 ベジェ曲線
+2 PS写真の色味調整
+3 名刺作成
+
+##やりたいこと
+Illustrator基礎, Photoshop基礎
+Illustratorベジェ
+Illustratorベジェでトレース課題をやってもらう
+Illustrator名刺作成 
+Photoshop写真補正
+PSで合成, コピースタンプツール
